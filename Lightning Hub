@@ -338,11 +338,11 @@ end)
 
 Section:NewButton("ScriptMaster Hub", "ButtonInfo", function()
     -- scriptmaster hub loadstring
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheScriptMaster1/ScriptMaster-Hub/main/scriptmasterhub.lua')))()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheScriptMaster1/ScriptMaster-Hub/main/scriptmasterhub.lua')))()
 end)
 
-Section:NewButton("Slapper Hub", "ButtonInfo", function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/CatmemerAKAcatluga/Slap-Battles-Dev/main/Slapper-Hub-v2-4.lua%22))()
+Section:NewButton("Slap Battle Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
 end)
 
 Section:NewButton("Dizzy Hub", "ButtonInfo", function()
@@ -352,3 +352,4 @@ end)
 local Section = Tab:NewSection("Creadit")
 
 Section:NewLabel("EGM")
+end)
